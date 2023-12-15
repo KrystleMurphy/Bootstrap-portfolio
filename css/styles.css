@@ -4,7 +4,7 @@
 }
 
 * {
-    background-color: var(--dark)!;
+    background-color: var(--dark);
     color: var(--light);
 }
 
@@ -14,6 +14,12 @@
     margin-right: 0!;
     margin-left: auto;
 }
+
+.custom-nav-bar{
+    background-color: var(--dark);
+    color: var(--light);
+}
+
 
 .headshot img {
     display: flex;
