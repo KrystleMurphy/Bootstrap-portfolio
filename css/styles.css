@@ -47,8 +47,12 @@
   }
 
 .AVATAR {
-    max-width: 200px;
+    display: flex;
+    max-width: 70vh;
     padding-top: 10%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .display-4 {
