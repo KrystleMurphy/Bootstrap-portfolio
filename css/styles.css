@@ -98,3 +98,13 @@ button:hover {
 
 /* project cards */
 
+/* Contact Me */
+h4 {
+    text-align: center;
+}
+
+.contactcontainer{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
