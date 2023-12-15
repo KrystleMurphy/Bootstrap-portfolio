@@ -1,5 +1,5 @@
 :root {
-    --dark: black;
+    --dark: #0d001a;
     --light: white;
 }
 
@@ -102,6 +102,11 @@ button:hover {
 
 /*About me*/
 
+.topics {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
 
 
 .aboutmecontainer{ 
