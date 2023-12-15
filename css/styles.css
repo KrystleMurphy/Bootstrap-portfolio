@@ -67,6 +67,10 @@ p {
     max-width: 40vh;
 }
 
+button:hover {
+    border: 5px solid white
+}
+
 /* .center-button{
     margin-top: 20px;
     justify-content: center;
