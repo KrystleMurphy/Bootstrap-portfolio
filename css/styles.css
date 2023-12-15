@@ -98,6 +98,18 @@ button:hover {
 
 /* project cards */
 
+
+
+/*About me*/
+
+
+
+.aboutmecontainer{ 
+    max-width: 50vh;
+    text-align: center;
+}
+
+
 /* Contact Me */
 h4 {
     text-align: center;
