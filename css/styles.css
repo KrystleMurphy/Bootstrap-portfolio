@@ -8,6 +8,8 @@
     color: var(--light);
 }
 
+/* nav bar css */
+
 .navbar-nav {
     margin-right: 0!;
     margin-left: auto;
@@ -24,20 +26,21 @@ h1 {
     font-size:x-large;
 }
 
-/* h2 {font-size: large;} */
+.navbarlogo {
+    max-height: 80px;
+  }
+
+/* Jumbotron css */
 
 .jumbotron {
-    height: calc(100vh - 25px);
-    background-image: url(../images/background.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background:oklch(from color l c h)
-  /* display: inline; */
-  /* align-items: center; */
-  justify-content: center;
-  text-align: center;
+height: calc(100vh - 25px);
+background-image: url(../images/background.png);
+background-size: cover;
+background-repeat: no-repeat;
+background:oklch(from color l c h)
+justify-content: center;
+text-align: center;
 }
-  /* background: none; */
 
 p {
     padding-top: 20px;
@@ -48,7 +51,6 @@ p {
     color: black;
     max-width: 40vh;
 }
-
 
 /* .center-button{
     margin-top: 20px;
@@ -65,11 +67,14 @@ p {
     justify-content: center;
 }
 
+/* main css */
+
+/* showcase project */
 
 .Showcase {
-    max-width:20%vh
+    position: relative;
+    max: width 50px;%vh
 }
 
-.navbarlogo {
-    max-height: 80px;
-  }
+/* project cards */
+
