@@ -48,8 +48,8 @@
 
 .AVATAR {
     display: flex;
-    max-width: 70vh;
-    padding-top: 10%;
+    max-width: 50%;
+    /* padding-top: 10%; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
