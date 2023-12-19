@@ -86,10 +86,11 @@ button:hover {
 
 /* showcase project */
 
-.showcaseimage {
+.showcaseimg {
     width: 100%;
     align-items: center;
     justify-content: center;
+    padding-top: 5px;
 }
 
 .showcasecontainer {
@@ -100,8 +101,11 @@ button:hover {
     align-items: center;
 }
 
-/* project cards */
+p {
+    padding-bottom: 5px;
+}
 
+/* project cards */
 
 
 /*About me*/
