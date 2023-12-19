@@ -39,10 +39,10 @@
 </div>
 </header> 
 
-<body>
+<body class="bg-body-dark">
 
   <!-- Showcase project -->
-
+ <button>
   <div class="showcasecontainer">
     <h2 class="card-text text-white text-center">Showcase Project</h2>
     <picture class="showcaseimage">
@@ -52,6 +52,7 @@
       <p class="card-text text-white text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam facilis ex necessitatibus cumque ut dolorum eos, minus inventore provident, amet possimus. Fugit consequuntur ratione dolor libero repudiandae natus, ipsa placeat!</p>
     </div>
   </div>
+</button>
 
 <!-- Projects -->
 
@@ -67,6 +68,7 @@
      </div>
     </div>
       </div>
+
 
       <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
     <div class="card">
@@ -87,33 +89,43 @@
   </div>
 </div>
       </div>
-
   </div>
 </div>
 
-<!-- create 2 columns here, then add about me to container/aside, then topics to colum 2 whist in a grid -->
 
 
   <main class="page-wrapper">
     <section class="page-section" id="about">
-      <h3 id="about">
+      <h3 class="text-center" id="about">
         About Me:</h3>
-        <div class="aboutmecontainer">Curently completing UoB front end web developer course,
-        developing my knowledge and practicle skills in...</div> 
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12">Curently completing UoB front end web developer course,
+            developing my knowledge and practicle skills in...</div> 
+        </div>
+        <div class="container col-lg-6 col-md-6 col-sm-12">
+          <button class="skills">HTML, CSS</button>
+          <button class="skills">GIT, repositories, push, pull, branches</button>
+          <button class="skills">UX & Bootstrap</button>
+          <button class="skills">Java Script, arrays, iteration, functions,</button>
+          <button class="skills">API's, client side storage</button>
+          <button class="skills">jQuery</button>
+          <button class="skills">ES6</button>
+          <button class="skills">Node.js</button>
+          <button class="skills">React</button>
+        </div>
+
+      </div>
+
+
+
       </section>
       <section>
       <div class="container">
-        <div class="topics col-lg-12 col-md-12 col-sm-12">
+        <div class="topics">
           <div class="row">
-            <div>HTML, CSS</div>
-            <div>GIT, repositories, push, pull, branches</div>
-            <div>UX & Bootstrap</div>
-            <div>Java Script, arrays, iteration, functions,</div>
-            <div>API's, client side storage</div>
-            <div>jQuery</div>
-            <div>ES6</div>
-            <div>Node.js</div>
-            <div>React</div>
+
           </div>
         </div>
       </div>
