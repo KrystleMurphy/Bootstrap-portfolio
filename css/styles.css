@@ -21,11 +21,11 @@
 }
 
 
-.headshot img {
+/* .headshot img {
     display: flex;
     max-width: 100%;
-    Padding: 2%
-}
+    Padding: 0
+} */
 
 .navbarlogo {
     max-height: 80px;
@@ -35,7 +35,7 @@
 
 .jumbotron {
     width: 100%;
-    height: 100vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
