@@ -118,8 +118,15 @@ p {
 
 
 .aboutmecontainer{ 
-    max-width: 50vh;
-    text-align: center;
+    display: flex
+    /* max-width: 50vh;
+    text-align: center; */
+}
+
+.box {
+    align-items: center;
+    justify-content: center;
+    
 }
 
 
